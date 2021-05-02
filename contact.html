@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <script src="https://unpkg.com/dayjs"></script>
+  <script src="https://unpkg.com/dayjs@1.7.7/locale/ja.js"></script>
+  <title>株式会社TECH_お問い合わせ</title>
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header">
+    <div class="header__nav-logo">
+      <a href="index.html"><img src="img/logo.png"></a>
+    </div>
+    <nav class="header-nav pc">
+      <ul class="header-nav-list">
+        <li class="header-nav-item"><a href="index.html">ホーム</a></li>
+        <li class="header-nav-item"><a href="service.html">事業内容</a></li>
+        <li class="header-nav-item"><a href="news.html">ニュース</a></li>
+        <li class="header-nav-item"><a href="blog.html">社員ブログ</a></li>
+        <li class="header-nav-item"><a href="company.html">会社概要</a></li>
+        <li class="header-nav-item"><a href="recruit.html">採用情報</a></li>
+        <li class="header-nav-item"><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+    <div class="menu" id="menu">
+      <span class="menu__line--top"></span>
+      <span class="menu__line--middle"></span>
+      <span class="menu__line--bottom"></span>
+    </div>
+    <nav class="drawer-nav" id="drawer-nav">
+      <ul class="drawer-nav-list">
+        <li class="drawer-nav-item"><a href="index.html">ホーム</a></li>
+        <li class="drawer-nav-item"><a href="service.html">事業内容</a></li>
+        <li class="drawer-nav-item"><a href="news.html">ニュース</a></li>
+        <li class="drawer-nav-item"><a href="blog.html">社員ブログ</a></li>
+        <li class="drawer-nav-item"><a href="company.html">会社概要</a></li>
+        <li class="drawer-nav-item"><a href="recruit.html">採用情報</a></li>
+        <li class="drawer-nav-item"><a href="contact.html">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- firstview -->
+    <div class="firstview">
+      <h1 class="firstview-ttl">お問い合わせ</h1>
+    </div>
+    <!-- firstview end -->
+    <!-- contact -->
+    <div class="contact">
+      <form action="index.html" mrthod= "post" name="contact-form" class="contact-form">
+        <div class="contact-form-item">
+          <p><label for="company">会社名</label></p>
+          <input type="text" id="company" name="company" class="contact-form-items">
+        </div>
+        <div class="contact-form-item">
+          <p><label for="company">お名前<span>*</span></label></p>
+          <input type="text" id="name" name="name" class="contact-form-items">
+        </div>
+        <div class="contact-form-item">
+          <p><label for="company">メールアドレス<span>*</span></label></p>
+          <input type="text" id="email" name="email" class="contact-form-items">
+        </div>
+        <div class="contact-form-item">
+          <p><label for="company">お問い合わせ内容<span>*</span></label></p>
+          <textarea id="comment" cols="80" rows="8"></textarea>
+        </div>
+        <input type="submit" value="お申し込み" class="contactform-submit">
+      </form>
+    </div>
+
+    <!-- contact end-->
+  </main>
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer-wrap">
+      <small class="footer-copyright">&copy;2020 TECH inc.</small>
+      <nav class="footer-nav">
+        <ul class="footer-nav__list">
+          <li class="footer-nav-item"><a href="index.html">ホーム</a></li>
+          <li class="footer-nav-item"><a href="service.html">事業内容</a></li>
+          <li class="footer-nav-item"><a href="news.html">ニュース</a></li>
+          <li class="footer-nav-item"><a href="blog.html">社員ブログ</a></li>
+          <li class="footer-nav-item"><a href="company.html">会社概要</a></li>
+          <li class="footer-nav-item"><a href="recruit.html">採用情報</a></li>
+          <li class="footer-nav-item"><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
