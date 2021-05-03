@@ -198,6 +198,9 @@ top: 0;
 
 .service-wrap__item {
   text-align: center;
+  display: inline-block;
+  margin: 20px;
+  width: 70%;
 }
 
 .service-wrap__inner-item {
@@ -239,24 +242,10 @@ margin: 0 auto;
 }
 
 @media screen and (min-width:769px) {
-  .service-wrap {
-    display: flex;
-    width: 100%;
-  }
-
   .service-wrap-top,.service-wrap-bottom {
-    width: 100%;
-    padding: 30px 10px;
-  }
-
-  .service-wrap__item {
-    width: 100%;
-  }
-
-  .service-wrap__inner-item {
-    margin: 0;
-    width: 100%;
-    padding-bottom: 20px;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
   }
 
 }
